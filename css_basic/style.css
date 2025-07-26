@@ -1,1 +1,18 @@
-
+.container, .container2 {
+display: flex;
+}
+container {
+  flex-direction: column;
+}
+.container2 {
+  flex-direction: row;
+  flex: auto;
+}
+.sizing {
+  flex: 2;
+  overflow-y: auto;
+}
+aside {
+  flex: 1;
+  overflow-y: auto;
+}
