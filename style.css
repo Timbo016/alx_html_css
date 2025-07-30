@@ -486,3 +486,43 @@ button {
 .faq-item p {
     color: #666;
 }
+/* Footer */
+footer {
+    background-color: #282838; /* Dark background, same as membership */
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Allow wrapping */
+}
+
+.footer-left .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer-right {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-right img {
+    width: 24px;
+    height: 24px;
+}
+
+footer p {
+    width: 100%; /* Take full width for copyright */
+    text-align: right;
+    margin-top: 20px; /* Space from other elements */
+    font-size: 14px;
+}
+.copyright {
+    text-align: center;
+    margin-bottom: 0;
+}
