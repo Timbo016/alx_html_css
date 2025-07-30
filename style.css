@@ -286,3 +286,28 @@ button {
     font-size: 22px;
     font-family: sans-serif;
 }
+
+.quote-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    max-width: 900px; /* Adjust for quote content width */
+    margin: 0 auto;
+}
+
+.quote-image img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.quote-text p {
+    font-style: italic;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.quote-text h4 {
+    margin-bottom: 5px;
+}
