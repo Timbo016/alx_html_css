@@ -84,3 +84,67 @@ nav ul li a:hover {
     color: white;
     text-decoration: none;
 }
+
+/* ========================================================== */
+/* MAIN CONTENT SECTIONS                                      */
+/* ========================================================== */
+
+.main-main {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.main-main h2 {
+    font-size: clamp(1.5rem, 5vw, 2.5rem); /* Responsive font size */
+    margin-bottom: 10px;
+}
+
+.main-main h4 {
+    font-size: clamp(1rem, 2vw, 1.2rem);
+    margin-bottom: 30px;
+}
+
+.par1 {
+    padding: 20px;
+    line-height: 1.5;
+    max-width: 800px;
+    margin: 0 auto 50px;
+}
+
+.group-two {
+    padding: 50px 20px;
+}
+
+.group-two h3 {
+    font-size: clamp(1.8rem, 4vw, 2rem);
+    margin-bottom: 20px;
+}
+
+.group-two p {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.polygon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.polygon figure {
+    margin: 0;
+    text-align: center;
+    flex-basis: 150px; /* Allow items to grow/shrink but with a base width */
+}
+
+.polygon img {
+    width: 75px;
+    height: 75px;
+    margin-bottom: 10px;
+}
+
+.polygon figcaption {
+    font-size: 0.9rem;
+}
