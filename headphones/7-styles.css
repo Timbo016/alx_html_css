@@ -1,0 +1,326 @@
+/* ========================================================== */
+/* BASE & GLOBAL STYLES                                       */
+/* ========================================================== */
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+h1, h2, h3, h4, p {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ========================================================== */
+/* HEADER & NAVIGATION                                        */
+/* ========================================================== */
+
+.group-one {
+    background-image: linear-gradient(rgba(0,0,0,0.6)), url(headphones_hero_1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    color: white;
+    padding-bottom: 50px; /* Added spacing to the bottom */
+}
+
+.head {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column; /* Mobile-first: stack items vertically */
+    align-items: center;
+    gap: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Stack links on mobile */
+    align-items: center;
+    gap: 10px;
+}
+
+nav ul li {
+    display: block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    display: block;
+}
+
+nav ul li a:hover {
+    color: red;
+    transition: color 0.3s ease;
+}
+
+.first {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+/* ========================================================== */
+/* MAIN CONTENT SECTIONS                                      */
+/* ========================================================== */
+
+.main-main {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.main-main h2 {
+    font-size: clamp(1.5rem, 5vw, 2.5rem); /* Responsive font size */
+    margin-bottom: 10px;
+}
+
+.main-main h4 {
+    font-size: clamp(1rem, 2vw, 1.2rem);
+    margin-bottom: 30px;
+}
+
+.par1 {
+    padding: 20px;
+    line-height: 1.5;
+    max-width: 800px;
+    margin: 0 auto 50px;
+}
+/* WHAT WE DO SECTION */
+.group-two {
+    padding: 50px 20px;
+}
+
+.group-two h3 {
+    font-size: clamp(1.8rem, 4vw, 2rem);
+    margin-bottom: 20px;
+}
+
+.group-two p {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.polygon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.polygon figure {
+    margin: 0;
+    text-align: center;
+    flex-basis: 150px; /* Allow items to grow/shrink but with a base width */
+}
+
+.polygon img {
+    width: 75px;
+    height: 75px;
+    margin-bottom: 10px;
+}
+
+.polygon figcaption {
+    font-size: 0.9rem;
+}
+/* WHAT WE DO SECTION  ENDS*/
+
+/* OUR RESULT SPEAKS */
+.whole {
+    padding: 50px 20px;
+    color: white;
+    background-image: linear-gradient(rgba(0,0,0,0.6)), url(headphones_hero_2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+}
+
+.group-three {
+    text-align: center;
+}
+
+.group-three h3 {
+    font-size: clamp(1.8rem, 4vw, 2rem);
+    margin-bottom: 20px;
+}
+
+.group-three p {
+    max-width: 800px;
+    margin: 20px auto 40px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.pentagon {
+    position: relative;
+    width: 100px;
+    height: 95px;
+    background: darkred;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: clamp(1rem, 3vw, 1.5rem);
+    text-align: center;
+}
+
+.pentagon span {
+    font-size: clamp(0.7rem, 2vw, 0.8rem);
+    display: block;
+    margin-top: 5px;
+}
+/* ENDS HERE */
+
+
+/* ========================================================== */
+/* CONTACT FORM                                               */
+/* ========================================================== */
+
+.group-four {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.group-four h3 {
+    font-size: clamp(1.8rem, 4vw, 2rem);
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+/* ENDS HERE */
+/* ========================================================== */
+/* FOOTER                                                     */
+/* ========================================================== */
+
+/* FOOTER */
+footer {
+    background-image: linear-gradient(rgba(0,0,0,0.6)), url(new.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 20px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column; /* Stack on mobile */
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer img {
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+}
+
+.footer span {
+    display: flex;
+    gap: 15px;
+}
+
+.copy {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* ========================================================== */
+/* MEDIA QUERIES                                              */
+/* ========================================================== */
+
+/* Tablet and larger screens */
+@media (min-width: 768px) {
+    /* Adjust navigation for larger screens */
+    nav {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    nav ul {
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 20px;
+    }
+
+    .main-main {
+        padding: 80px 20px;
+    }
+
+    .footer {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+/* Desktop and larger screens */
+@media (min-width: 1024px) {
+    .polygon {
+        gap: 50px;
+    }
+
+    .container {
+        gap: 50px;
+    }
+}
