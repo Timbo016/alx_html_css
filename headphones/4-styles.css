@@ -1,0 +1,37 @@
+footer {
+    background-image: linear-gradient(rgba(0,0,0,0.6)), url(new.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 20px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column; /* Stack on mobile */
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer img {
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+}
+
+.footer span {
+    display: flex;
+    gap: 15px;
+}
+
+.copy {
+    text-align: center;
+    margin-top: 20px;
+}
